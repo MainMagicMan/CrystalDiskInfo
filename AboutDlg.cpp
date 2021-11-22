@@ -72,7 +72,7 @@ BOOL CAboutDlg::OnInitDialog()
 
 	m_bShowWindow = TRUE;
 	m_CtrlVersion.SetWindowTextW(PRODUCT_NAME L" " PRODUCT_VERSION);
-	m_CtrlEdition.SetWindowTextW(PRODUCT_EDITION);
+	m_CtrlEdition.SetWindowTextW(PRODUCT_EDITION " MOD by MagicMan");
 	m_CtrlRelease.SetWindowTextW(L"Release: " PRODUCT_RELEASE);
 	m_CtrlCopyright1.SetWindowTextW(PRODUCT_COPYRIGHT_1);
 	m_CtrlCopyright2.SetWindowTextW(PRODUCT_COPYRIGHT_2);

@@ -134,11 +134,11 @@ void CMainDialogFx::SetWindowTitle(CString message)
 
 	if(! message.IsEmpty())
 	{
-		title.Format(L" %s - %s", PRODUCT_SHORT_NAME, message.GetString());
+		title.Format(L" %s - %s MOD by MagicMan", PRODUCT_SHORT_NAME, message.GetString());
 	}
 	else
 	{
-		title.Format(L" %s %s %s", PRODUCT_NAME, PRODUCT_VERSION, PRODUCT_EDITION);
+		title.Format(L" %s %s %s MOD by MagicMan", PRODUCT_NAME, PRODUCT_VERSION, PRODUCT_EDITION);
 	}
 
 	SetWindowText(title);
