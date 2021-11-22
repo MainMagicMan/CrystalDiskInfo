@@ -1,6 +1,6 @@
 [英語](./README.md) | 日本語
 
-# CrystalDiskInfo
+# CrystalDiskInfo - 128 Disks MOD
 
 ## 概要
 CrystalDiskInfo はディスク情報ツールです。
